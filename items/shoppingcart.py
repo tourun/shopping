@@ -3,6 +3,9 @@
 
 
 class ShoppingCart(object):
+    """
+    购物车类
+    """
     def __init__(self):
         self._shopping_basket = []
         self._coupon = None
